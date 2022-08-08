@@ -116,7 +116,7 @@ div[class*="field"] + div:not([class]) > span[class*="field"] input,tr + tr:not(
 div[class*="field"] + div:not([class]) > span[class*="field"] + div, tr + tr:not([class]) > td > div > span[class*="field"] + div{
     margin-top: 1.5em;
 }
-form input[type="submit"]{
+healcode-widget div.healcode a.hc-button, healcode-widget div.healcode input.hc-button, form input[type="submit"]{
     background-color: transparent;
     border: 2px solid #797979;
     border-radius:100vw;
