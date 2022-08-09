@@ -142,12 +142,9 @@ healcode-widget div.healcode a.hc-button, healcode-widget div.healcode input.hc-
     width:auto;
     transition:border-color .2s ease-in-out;
 }
-form input[type="submit"]:hover{
+healcode-widget div.healcode a.hc-button:hover, healcode-widget div.healcode input.hc-button:hover, form input[type="submit"]:hover{
     border-color:#fcfcfc;
     transition:border-color .2s ease-in-out;
-}
-.widget-privacy-link{
-    font-size: 0.75em !important;
 }
 [data-view-type="stacked"] form input[type="submit"]{
     margin-top:1.5em;
@@ -165,5 +162,6 @@ form input[type="submit"]:hover{
 .hc-birth-date select[name*="month"]{margin-right: 0.5em;}
 .hc-birth-date select[name*="day"]{margin-left: 0.5em;margin-right:0.5em}
 .hc-birth-date select[name*="year"]{margin-left: 0.5em;}
-
-     
+.widget-privacy-link{
+    font-size: 0.75em !important;
+}
