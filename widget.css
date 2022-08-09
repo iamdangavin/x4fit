@@ -162,4 +162,8 @@ form input[type="submit"]:hover{
 .hc-birth-date select.parsley-error{
      border-bottom-color: red !important;
 }
+.hc-birth-date select[name*="month"]{margin-right: 0.5em;}
+.hc-birth-date select[name*="day"]{margin-left: 0.5em;margin-right:0.5em}
+.hc-birth-date select[name*="year"]{margin-left: 0.5em;}
+
      
