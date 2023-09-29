@@ -2793,7 +2793,7 @@ hooks.HTML5_FMT = {
   MONTH: "YYYY-MM"
   // <input type="month" />
 };
-const _x4 = class _x4 {
+class x4 {
   constructor(options = {}) {
     this._options = {
       location: null,
@@ -2888,5 +2888,3 @@ const _x4 = class _x4 {
     );
   }
 };
-__name(_x4, "x4");
-let x4 = _x4;
