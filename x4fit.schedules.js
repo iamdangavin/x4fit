@@ -2890,6 +2890,3 @@ const _x4 = class _x4 {
 };
 __name(_x4, "x4");
 let x4 = _x4;
-export {
-  x4 as default
-};
